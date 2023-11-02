@@ -6,6 +6,7 @@ const CustomButton = ({
   title,
   contrainerStyle,
   handleClick,
+  btnType
 }: CustomButtomProps) => {
   return (
     <button

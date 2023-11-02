@@ -1,10 +1,10 @@
 
 ##  Ongoing Project Tech Stack:
 
-- React JS
+- TypeScript
 - Next JS
 - JavaScript
-- TypeScript
+- React JS
 - Tailwind CSS
 - JSX
 - Third-Party API from RapidAPI

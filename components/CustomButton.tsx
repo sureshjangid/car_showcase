@@ -6,12 +6,12 @@ const CustomButton = ({
   title,
   contrainerStyle,
   handleClick,
-  btnType
+  btnType,
 }: CustomButtomProps) => {
   return (
     <button
       disabled={false}
-      type={"button"}
+      type={btnType || "button"}
       className={`custom-btn ${contrainerStyle}`}
       onClick={handleClick}
     >

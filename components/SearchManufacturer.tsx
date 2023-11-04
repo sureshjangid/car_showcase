@@ -38,6 +38,7 @@ const SearchManufacturer = ({
             displayValue={(manufacturer: string) => manufacturer}
             onChange={(e) => setQuery(e.target.value)}
           />
+          
           <Transition
             as={Fragment}
             leave="transition ease-in duration-100"
